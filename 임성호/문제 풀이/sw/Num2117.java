@@ -7,11 +7,6 @@ public class Num2117 {
     private static int N;
 
     public static void main(String args[]) throws Exception {
-        Integer s = null;
-        if (s.equals(null)) {
-            System.out.println("ㅗ");
-        }
-
         System.setIn(new FileInputStream("src/sw/res/test.txt"));
 
         Scanner sc = new Scanner(System.in);
