@@ -17,9 +17,7 @@
     * string s;
 
 2.  메소드
-<details>
-   <summary> erase <summary>
-      
+    * erase
       * iterator erase (iterator p);
          * p가 가리키는 char를 삭제 
       * iterator erase (iterator first, iterator last);
