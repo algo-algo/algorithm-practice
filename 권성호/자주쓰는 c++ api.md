@@ -14,7 +14,6 @@
 * string에서 index접근 시 char가 나온다. => char는 기본적으로 아스키코드 숫자 값!
 * char type을 출력하면 알아서 char로 나옴
 * char type을 더하면 정수로 취급됨   
-*
 -----------------------
 
 1.  선언
@@ -32,6 +31,7 @@
          * pos: 찾기 시작할 위치
          * str: 찾고싶은 문자열
          * retrun: str이 처음 나오는 위치의 index
+         * 찾고자 하는 문자열이 없을 때 -1리턴
           
     * insert
       *  string& insert (size_t pos, const string& str);
