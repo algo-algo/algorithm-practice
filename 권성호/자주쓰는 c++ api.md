@@ -46,16 +46,88 @@
 
 ## 3. vector
 
-## 4. set   
+1.  선언 
+   * vector<int> vec;
+   
+2.  메소드
+
+## 4. set 
+1.  선언 
+   * set<int> vec;
+   
+2.  메소드
+   * begin
+   * end
+   * rbegin
+   * rend
+   * size
+   * insert
+   * erase
+   * find
+   * lower_bound
+      * iterator lower_bound (const value_type& val) const;
+   * upper_bound
+      * iterator upper_bound (const value_type& val) const; 
 
 ## 5. map
+1.  선언 
+   * map<int,int> vec;
+   
+2.  메소드
+   * begin
+   * end
+   * rbegin
+   * rend
+   * size
+   * insert
+   * erase
+   * find
+      * iterator find (const key_type& k); 
+   * lower_bound
+      * iterator lower_bound (const key_type& k);
+   * upper_bound
+      * iterator upper_bound (const key_type& k);
 
 ## 6. stack
 
+1.  선언 
+   * stack<int> s;
+   
+2.  메소드
+   * top(접근용)
+   * pop(원소 제거)
+   * push
+   * size
+ 
+
+
 ## 7. queue
+1.  선언 
+   * vector<int> vec;
+   
+2.  메소드
+   * front(접근용)
+   * pop(원소 제거)
+   * push
+   * size
 
 ## 8. priority queue
+1.  선언 
+   * priority_queue< int, vector<int>, less<int> > pq;
+   * priority_queue< pair<int,int>, vector<pair<int,int>>, less<pair<int,int>> > pq;
+   * priority_queue< pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>> > pq;
+
+2.  메소드
+   * push
+   * pop
+   * top
+   * size
+3. 비교 연산자 제정의 예시
+   * ![image](https://user-images.githubusercontent.com/41561652/115807732-22874380-a424-11eb-9c48-c69ec0b237da.png)
+
 
 ## 9. pair
 
 ## 10. sort
+* 비교 연산자 제정의 예시
+   * ![image](https://user-images.githubusercontent.com/41561652/115807833-4d719780-a424-11eb-8acb-266d140202e0.png)
