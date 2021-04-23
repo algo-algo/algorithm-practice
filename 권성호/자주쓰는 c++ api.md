@@ -11,8 +11,6 @@
 
 ## 2. String
 
-0.  헤더
-    * #include <string>
 
 1.  선언
     * string s = "some string";
