@@ -123,7 +123,7 @@
    * top
    * size
 3. 비교 연산자 제정의 예시
-   * ![image](https://user-images.githubusercontent.com/41561652/115807732-22874380-a424-11eb-9c48-c69ec0b237da.png)
+   * ![image](https://user-images.githubusercontent.com/41561652/115808590-b1e12680-a425-11eb-939a-df0cc7c24fe0.png)
 
 
 ## 9. pair
