@@ -25,13 +25,24 @@
       * iterator erase (iterator first, iterator last);
          * [first, last)의 범위 char를 삭제 
     * find
-      * 
-    * find_first_of
+      * size_t find (const string& str, size_t pos = 0) const;
+         * pos: 찾기 시작할 위치
+         * str: 찾고싶은 문자열
+         * retrun: str이 처음 나오는 위치의 index
+         
     * insert
+      *  string& insert (size_t pos, const string& str);
+         * pos: insert point
+         * str: 넣어질 string
     * replace
+      * string& replace (size_t pos,  size_t len,  const string& str);
+         * str: replace될 string
+         * [pos,pos+len)만큼의 문자열이 str로 replace됨
+       
     * substr
+      * string substr (size_t pos = 0, size_t len = npos) const;
+         * [pos, pose+len)만큼의 문자열이 substr됨
     * stoi, stol, stoll
-    * append
 
 ## 3. vector
 
