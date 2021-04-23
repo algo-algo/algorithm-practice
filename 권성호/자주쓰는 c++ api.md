@@ -18,9 +18,8 @@
 
 2.  메소드
 <details>
-   
-    * <summary> erase <summary>
-    
+   <summary> erase <summary>
+      
       * iterator erase (iterator p);
          * p가 가리키는 char를 삭제 
       * iterator erase (iterator first, iterator last);
@@ -30,7 +29,9 @@
          * pos: 찾기 시작할 위치
          * str: 찾고싶은 문자열
          * retrun: str이 처음 나오는 위치의 index
-         
+      
+    <summary> erase <summary>   
+    
     * insert
       *  string& insert (size_t pos, const string& str);
          * pos: insert point
