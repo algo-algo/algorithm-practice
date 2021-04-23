@@ -103,7 +103,7 @@
 
 ## 7. queue
 1.  선언 
-   * vector<int> vec;
+   * queue<int> q;
    
 2.  메소드
    * front(접근용)
