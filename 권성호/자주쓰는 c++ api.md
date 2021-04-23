@@ -27,7 +27,9 @@
       * iterator erase (iterator first, iterator last);
          * [first, last)의 범위 char를 삭제 
 --------------
-erase는 iterator와 size_t일때의 동작이 다르니 무조건 iterator로 사용한다고 
+erase는 iterator와 size_t일때의 동작이 다르니 무조건 iterator로 사용한다고 생각하자!
+그리고 erase말고는 다 위치를 size_t로 표현함!!
+
 --------------
     * find
       * size_t find (const string& str, size_t pos = 0) const;
