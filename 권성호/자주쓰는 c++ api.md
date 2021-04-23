@@ -25,6 +25,7 @@
       * iterator erase (iterator first, iterator last);
          * [first, last)의 범위 char를 삭제 
     * find
+      * 
     * find_first_of
     * insert
     * replace
