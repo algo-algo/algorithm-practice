@@ -27,9 +27,7 @@
          * pos: 찾기 시작할 위치
          * str: 찾고싶은 문자열
          * retrun: str이 처음 나오는 위치의 index
-      
-    <summary> erase <summary>   
-    
+          
     * insert
       *  string& insert (size_t pos, const string& str);
          * pos: insert point
@@ -42,9 +40,9 @@
     * substr
       * string substr (size_t pos = 0, size_t len = npos) const;
          * [pos, pose+len)만큼의 문자열이 substr됨
+         
     * stoi, stol, stoll
     
-<details>
 
 ## 3. vector
 
