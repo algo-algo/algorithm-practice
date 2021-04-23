@@ -17,7 +17,10 @@
     * string s;
 
 2.  메소드
-    * erase
+<details>
+   
+    * <summary> erase <summary>
+    
       * iterator erase (iterator p);
          * p가 가리키는 char를 삭제 
       * iterator erase (iterator first, iterator last);
@@ -41,6 +44,8 @@
       * string substr (size_t pos = 0, size_t len = npos) const;
          * [pos, pose+len)만큼의 문자열이 substr됨
     * stoi, stol, stoll
+    
+<details>
 
 ## 3. vector
 
