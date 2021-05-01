@@ -3,7 +3,9 @@
 //
 //using namespace std;
 //
+//void start() {
 //
+//}
 //
 //int main(int argc, char** argv)
 //{
@@ -12,10 +14,7 @@
 //    ios::sync_with_stdio(false);
 //
 //
-//    vector<int> result = getResult();
-//    for (int item: result) {
-//        cout << item << ' ';
-//    }
+//    start();
 //    cout << '\n';
 //    return 0;
 //}
