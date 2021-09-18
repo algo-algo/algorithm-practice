@@ -38,6 +38,9 @@ public class leetcode79 {
         if(currentWord.length() >= word.length())
             return;
 
+        if(!currentWord.equals(word.substring(0,currentWord.length())))
+            return;
+
         for(int i = 0;i<4;i++){
             Pos nextP = new Pos(currentP.x + dx[i],currentP.y + dy[i]);
             if(Inboard(nextP,board) && !visited[nextP.x][nextP.y]){
